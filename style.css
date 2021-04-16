@@ -1,0 +1,48 @@
+body {
+  text-align: center;
+  font-family: monospace;
+  background: linear-gradient(pink 0%, #84FFFF 100%);  
+}
+img {
+  width: 350px;
+  border-radius: 20px;
+}
+#welcome {
+    font-family: 'Nunito', sans-serif;
+}
+#pic {
+  font-size: 25px;
+    top: 5px;
+}
+#Preview {
+  font-size: 20px;
+  color: #6D4C41;
+}
+.links {
+   float: center;
+   color: navy;
+   padding-top: 5px;
+   padding-left: 9px;
+   padding-bottom: 5px;
+   padding-right: 9px;
+    font-family: fantasy;
+    font-size: 20px;
+}
+.links:hover {
+    background-color: hotpink;
+    cursor: pointer;
+}
+#about-2 {
+    font-family: cursive;
+    font-size: 19px;
+    color: darkcyan;
+}
+#pop {
+    transition: transform .2s;
+}
+#pop:hover {
+  transform: scale(1.100);
+}
+html {
+    scroll-behavior: smooth; 
+}
